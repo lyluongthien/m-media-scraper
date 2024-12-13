@@ -1,0 +1,15 @@
+{
+  "extends": "@repo/typescript-config/base.json",
+  "compilerOptions": {
+    "baseUrl": "src",
+    "outDir": "libs",
+    "rootDir": "src",
+    "inlineSourceMap": true,
+    "sourceMap": false,
+    "noEmit": false,
+    "incremental": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
